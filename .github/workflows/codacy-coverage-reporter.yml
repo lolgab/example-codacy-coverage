@@ -20,5 +20,11 @@ jobs:
         run: mvn dependency:resolve
       - name: test
         run: mvn clean test
-      - name: cobertura
+      - name: cobertura check
         run: mvn cobertura:check
+      - name: cobertura check
+        run: mvn cobertura:cobertura
+      - name: Run codacy-coverage-reporter
+        uses: codacy/codacy-coverage-reporter-action@master
+        with:
+          project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
