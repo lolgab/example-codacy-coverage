@@ -6,8 +6,8 @@ Sample project that uses Maven Cobertura plugin
 
 ## Prerequisites
 
-1. Java JDK 8
-1. Maven 3.0+
+1.  Java JDK 8
+2.  Maven 3.0+
 
 ## How?
 
