@@ -5,6 +5,7 @@ public class App {
 	private Echoable echoable;
 
 	public App(Echoable echoable) {
+
 		this.echoable = echoable;
 	}
 
