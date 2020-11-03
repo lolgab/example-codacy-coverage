@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="1.0" branch-rate="1.0" lines-covered="5" lines-valid="5" branches-covered="2" branches-valid="2" complexity="1.2857142857142858" version="2.1.1" timestamp="1597142118788">
+	<sources>
+		<source>--source</source>
+		<source>example-codacy-coverage/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="com.mycompany.app" line-rate="1.0" branch-rate="1.0" complexity="1.2857142857142858">
+			<classes>
+				<class name="com.mycompany.app.App" filename="com/mycompany/app/App.swift" line-rate="1.0" branch-rate="1.0" complexity="1.2">
+					<methods>
+						<method name="addTwo" signature="(I)I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="12" hits="1" branch="false" />
+							</lines>
+						</method>
+						<method name="echo" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="16" hits="2" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%" />
+									</conditions>
+								</line>
+								<line number="17" hits="2" branch="false" />
+								<line number="18" hits="2" branch="false" />
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="12" hits="1" branch="false" />
+						<line number="16" hits="2" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%" />
+							</conditions>
+						</line>
+						<line number="17" hits="2" branch="false" />
+						<line number="18" hits="2" branch="false" />
+					</lines>
+				</class>
+				<class name="com.mycompany.app.DefaultEchoable" filename="com/mycompany/app/DefaultEchoable.m" line-rate="1.0" branch-rate="1.0" complexity="2.0">
+					<methods>
+						<method name="echo" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="7" hits="1" branch="false" />
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="7" hits="1" branch="false" />
+					</lines>
+				</class>
+		</package>
+	</packages>
+</coverage>
